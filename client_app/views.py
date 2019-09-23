@@ -1,6 +1,5 @@
 from django.shortcuts import render
 from rest_framework import viewsets, mixins
-from rest_framework.decorators import detail_route
 from django.views.generic import View
 from django.http import HttpResponse
 from rest_framework.response import Response
