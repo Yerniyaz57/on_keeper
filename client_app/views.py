@@ -3,7 +3,6 @@ from rest_framework import viewsets, mixins
 from rest_framework.decorators import detail_route
 from django.views.generic import View
 from django.http import HttpResponse
-from rest_framework.decorators import detail_route
 from rest_framework.response import Response
 from rest_framework.authentication import TokenAuthentication, SessionAuthentication, BasicAuthentication
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
